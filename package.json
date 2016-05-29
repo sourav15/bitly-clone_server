@@ -1,0 +1,28 @@
+{
+  "name": "bitlyserver",
+  "version": "1.0.0",
+  "description": "url-shorten server just like bitly",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourav15/bitly-clone_server.git"
+  },
+  "author": "Sourav Kodali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sourav15/bitly-clone_server/issues"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "body-parser": "^1.9.3",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "express-namespace": "^0.1.1",
+    "mongodb": "^1.4.7",
+    "redis": "^0.10.3" 
+  },
+  "homepage": "https://github.com/sourav15/bitly-clone_server#readme"
+}
